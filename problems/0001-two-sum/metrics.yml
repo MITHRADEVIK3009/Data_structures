@@ -1,0 +1,62 @@
+problem_id: 1
+title: "Two Sum"
+leetcode_url: "https://leetcode.com/problems/two-sum/"
+tags: [array, hashmap, two-pointers]
+difficulty: Easy
+pattern: hash-map
+company_frequency: High
+attempts: 2
+total_time_min: 45
+solved_date: "2024-01-15"
+pattern_mastery: true
+difficulty_rating: 2
+
+sprints:
+  - date: "2024-01-15"
+    duration_min: 25
+    phase: "learn"
+    progress: "solved"
+    notes: "Read problem, identified hash map pattern"
+  - date: "2024-01-15"
+    duration_min: 20
+    phase: "implement"
+    progress: "solved"
+    notes: "Coded solution, handled edge cases"
+
+complexity:
+  time: "O(n)"
+  space: "O(n)"
+  explanation: "Single pass through array, hash map operations are O(1)"
+
+approach_summary: "Use hash map to store complements. For each number, check if its complement exists."
+
+key_insights:
+  - "Hash maps are excellent for complement searching"
+  - "Store what we need (complement) rather than what we have"
+  - "Fundamental pattern for many array problems"
+
+alternative_approaches:
+  - name: "Two Pointers (Sorted Array)"
+    complexity: "O(n log n) time, O(1) space"
+    notes: "Requires sorting first, then two pointers from ends"
+
+edge_cases_handled:
+  - "Array with exactly 2 elements"
+  - "Array with duplicate elements"
+  - "Large numbers within constraints"
+
+common_mistakes:
+  - "Using same element twice"
+  - "Returning indices in wrong order"
+  - "Not handling no solution case"
+
+related_problems:
+  - problem_id: 167
+    title: "Two Sum II - Input Array Is Sorted"
+    url: "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
+  - problem_id: 15
+    title: "3Sum"
+    url: "https://leetcode.com/problems/3sum/"
+  - problem_id: 18
+    title: "4Sum"
+    url: "https://leetcode.com/problems/4sum/"
