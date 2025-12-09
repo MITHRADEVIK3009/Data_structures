@@ -1,0 +1,169 @@
+🧭 BIG PICTURE
+
+All your listed problems fall under just 4 CORE CONCEPT CLUSTERS:
+
+🔵 CLUSTER 1: TRIE / PREFIX / DICTIONARY PROBLEMS
+
+These problems revolve around:
+
+Prefix matching
+
+Word search
+
+Auto-complete
+
+Dictionaries
+
+Hierarchical text (folders, camelcase)
+
+Problems in this cluster:
+Problem	Pattern
+386	Trie / DFS
+648	Replace Words
+676	Magic Dictionary
+677	Map Sum
+720	Longest Word
+792	Matching subsequences
+820	Short Encoding
+1023	Camelcase
+1233	Remove Subfolders
+2452	Words within 2 edits
+3043	LCP
+3076	Shortest Uncommon Substring
+3291	Form target
+🔑 Data Structures Needed:
+
+Trie
+
+HashMap
+
+DFS/BFS on Trie
+
+Prefix comparison
+
+String matching
+
+🟢 CLUSTER 2: BIT MANIPULATION / XOR / BINARY TRIE
+
+These problems focus on:
+
+XOR tricks
+
+Binary representation
+
+Fast bit queries
+
+Problems here:
+Problem	Pattern
+421	Max XOR
+2932	Strong Pair XOR
+🔑 Required skill:
+
+Bitwise operations
+
+Binary Trie
+
+Prefix XOR patterns
+
+🟡 CLUSTER 3: TOP-K, FREQUENCY, SORTING BY LOGIC
+
+Used when:
+
+You must return top frequent elements
+
+Words ranked by frequency then lexicographically
+
+Problems:
+Problem	Pattern
+692	Top K Frequent Words
+🔑 Skills:
+
+Heap
+
+HashMap + Sorting
+
+Custom comparator
+
+🟣 CLUSTER 4: DP / Sliding Window / Hashing
+
+Deals with:
+
+Substrings
+
+Matching
+
+Editing distance
+
+Window patterns
+
+Problems:
+Problem	Type
+2261	Sliding Window + Counts
+2707	DP String
+3597	String Partition
+🧠 MENTAL TRIAGE WHEN SEEING A PROBLEM
+
+Ask THESE 4 questions:
+
+1️⃣ Are words / prefixes / dictionary involved?
+
+→ Think TRIE
+
+2️⃣ Is XOR / bits / binary comparison used?
+
+→ Think Binary Trie
+
+3️⃣ Is it "top-k", frequent, ranked?
+
+→ Think Heap + HashMap
+
+4️⃣ Is it substring / matching / window / DP?
+
+→ Think Sliding Window / DP
+
+✅ WHAT YOU SHOULD MASTER FIRST (IN ORDER)
+
+Do NOT solve randomly.
+
+Step 1:
+
+Master TRIE completely
+(Solve: 648 → 677 → 676 → 720 → 820 → 1023)
+
+Step 2:
+
+Do Bitwise XOR
+(421 → 2932)
+
+Step 3:
+
+Do Heaps & Sorting
+(692)
+
+Step 4:
+
+Do DP / String heavy problems
+(792 → 2707 → 3291)
+
+✅ MENTAL MODELS (Very important)
+🔹 Trie is just:
+
+"Multi-level HashMap of characters"
+
+You are NOT memorizing nodes — you’re storing prefixes.
+
+🔹 Binary Trie:
+
+"Bit-by-bit tree that branches on 0 and 1"
+
+🔹 DP on strings:
+
+"Index-by-index decisions — keep or skip"
+
+✅ MINIMUM YOU NEED TO LEARN BEFORE CODE
+Concept	Why
+Trie	Used in 60% of your list
+Bitwise XOR	Unique trick problems
+Sliding Window	Substrings
+HashMap	Frequencies
+Priority Queue	Ranking
